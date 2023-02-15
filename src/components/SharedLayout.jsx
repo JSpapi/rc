@@ -1,13 +1,15 @@
-import React from 'react'
-import { Home } from '../pages/Home'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import { Home } from "../pages/Home";
+import { Navbar } from "./navigation/Navbar";
 
 export const SharedLayout = () => {
   return (
-	 <>
-	 
-	 <main>
-		<Home/>
-	 </main>
-	 </>
-  )
-}
+    <>
+      <Navbar />
+      <main>
+        <Outlet />
+      </main>
+    </>
+  );
+};

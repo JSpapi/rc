@@ -1,0 +1,21 @@
+.root {
+  padding: 25px 0;
+  background: rgb(32, 31, 31);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #fff;
+
+  .link {
+    font-size: 18px;
+    border-bottom: 1.5px solid transparent;
+
+    &:hover {
+      border-bottom: 1.5px solid #fff;
+    }
+  }
+}
