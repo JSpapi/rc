@@ -7,6 +7,13 @@
 #root {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.App {
+  background: rgb(234, 232, 232);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -21,4 +28,38 @@ li {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-padding {
+  padding: 30px 0;
+}
+
+.btn{
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 20px;
+  margin: 0 10px 10px;
+  align-self: flex-end;
+}
+
+.singleProduct__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer {
+  padding: 25px 0;
+  background: #201f1f;
+  color: #fff;
+  margin-top: auto;
+  text-align: center;
 }

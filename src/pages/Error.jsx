@@ -1,9 +1,9 @@
 import React from "react";
 
-export const About = () => {
+export const Error = () => {
   return (
     <section className="section-padding">
-      <h2 className="section-title">About content would be here</h2>
+      <h2 className="section-title">404 Not Found</h2>
     </section>
   );
 };
