@@ -6,9 +6,9 @@ import data from "../../data";
 export const ProductList = () => {
   return (
     <div className={cl.cards}>
-      {data.map((product) => (
-        <ProductItem key={product.id} product={product} />
-      ))}
+      {data.map((product) => {
+        return <ProductItem key={product.id} product={product} />;
+      })}
     </div>
   );
 };

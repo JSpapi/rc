@@ -6,16 +6,30 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   color: #fff;
 
   .link {
     font-size: 18px;
-    border-bottom: 1.5px solid transparent;
+    margin: 0 10px;
+  }
 
-    &:hover {
-      border-bottom: 1.5px solid #fff;
-    }
+  .current {
+    border-bottom: 1px solid red;
   }
 }
+.link[aria-current="page"] {
+  border-bottom: 2px solid red;
+}
+
+.contact {
+  // width: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+// !I COULD USE JS LOGIC AS WELL
+// 'active' ? [cl.link, cl.current].join(' ') :cl.link
