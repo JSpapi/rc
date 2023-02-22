@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactRouter-practice-cards/static/css/main.1070f2b3.css",
+    "main.js": "/reactRouter-practice-cards/static/js/main.94afcc3e.js",
+    "index.html": "/reactRouter-practice-cards/index.html",
+    "main.1070f2b3.css.map": "/reactRouter-practice-cards/static/css/main.1070f2b3.css.map",
+    "main.94afcc3e.js.map": "/reactRouter-practice-cards/static/js/main.94afcc3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1070f2b3.css",
+    "static/js/main.94afcc3e.js"
+  ]
+}
